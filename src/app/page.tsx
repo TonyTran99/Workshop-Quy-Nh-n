@@ -21,7 +21,7 @@ export default function Home() {
               Quản Trị Rủi Ro - Tăng Tốc Lợi Nhuận
             </h1>
             <p className="hero-description">
-              Dành riêng cho những ai từng mất tiền vì giao dịch theo cảm xúc, mệt mỏi vì canh nến và đang tìm kiếm một "người dẫn đường" thực chiến để làm lại từ đầu một cách bài bản.
+              Dành riêng cho những ai từng mất tiền vì giao dịch theo cảm xúc, mệt mỏi vì canh nến và đang tìm kiếm một &quot;người dẫn đường&quot; thực chiến để làm lại từ đầu một cách bài bản.
             </p>
             
             <div className="hero-info-cards">
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="feature-box">
               <div className="icon">🎯</div>
               <h3>Điểm Vào Lệnh Chuẩn Xác</h3>
-              <p>Khuyến nghị mua bán, ra vào lệnh bằng dữ liệu phân tích cực kì chuẩn xác, thay vì phụ thuộc vào cảm tính hay "phím hàng" từ các hội nhóm hỗn tạp.</p>
+              <p>Khuyến nghị mua bán, ra vào lệnh bằng dữ liệu phân tích cực kì chuẩn xác, thay vì phụ thuộc vào cảm tính hay &quot;phím hàng&quot; từ các hội nhóm hỗn tạp.</p>
             </div>
             <div className="feature-box">
               <div className="icon">🛡️</div>
@@ -134,7 +134,7 @@ export default function Home() {
               <div className="role">Chuyên Gia Trading & Crypto (5+ Năm Kinh Nghiệm)</div>
               <p style={{ color: 'var(--text-muted)' }}>Hơn 5 năm thực chiến trong thị trường tài chính khắc nghiệt, anh là người trực tiếp đào tạo tư duy quản trị rủi ro. Sự kiện lần này không nhằm mục đích bán khóa học. Mục tiêu của anh là tìm kiếm 15-20 anh em trẻ nghiêm túc, tạo thành một đội nhóm giao dịch tại Quy Nhơn để trực tiếp coaching 1:1 và chuyển giao hệ thống kiếm tiền tự động.</p>
               <blockquote className="expert-quote">
-                "Thị trường tài chính là một cuộc chơi tổng bằng không (Zero-sum game). Nếu bạn không có công cụ, bạn chính là tiền của người khác."
+                &quot;Thị trường tài chính là một cuộc chơi tổng bằng không (Zero-sum game). Nếu bạn không có công cụ, bạn chính là tiền của người khác.&quot;
               </blockquote>
             </div>
           </div>
