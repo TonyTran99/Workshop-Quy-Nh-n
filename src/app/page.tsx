@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Countdown from '../components/Countdown';
+
 
 export default function Home() {
   const zaloLink = "https://zalo.me/g/vb1adixzhd7gmo4lkhhj";
@@ -164,21 +166,7 @@ export default function Home() {
           <h2>Cơ Hội Chỉ Dành Cho <span className="text-gold">20 Người Nhanh Nhất</span></h2>
           <p>Tham gia buổi workshop Offline đặc biệt này để được chúng tôi cầm tay chỉ việc. Số lượng chỗ ngồi vô cùng có hạn để đảm bảo chất lượng hướng dẫn tốt nhất.</p>
           
-          <div className="countdown">
-            {/* Lên lịch đếm ngược tĩnh mô phỏng */}
-            <div className="time-box">
-              <span className="num" id="day">04</span>
-              <span className="text">Ngày</span>
-            </div>
-            <div className="time-box">
-              <span className="num" id="hour">12</span>
-              <span className="text">Giờ</span>
-            </div>
-            <div className="time-box">
-              <span className="num" id="minute">30</span>
-              <span className="text">Phút</span>
-            </div>
-          </div>
+          <Countdown />
 
           <a href={zaloLink} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '20px 40px', fontSize: '1.2rem' }}>
             VÀO NHÓM ZALO ĐĂNG KÝ NGAY
