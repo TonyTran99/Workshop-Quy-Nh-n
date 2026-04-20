@@ -137,10 +137,9 @@ export default function Home() {
                 "Thị trường tài chính là một cuộc chơi tổng bằng không (Zero-sum game). Nếu bạn không có công cụ, bạn chính là tiền của người khác."
               </blockquote>
             </div>
-            </div>
           </div>
           <div style={{ marginTop: '40px', textAlign: 'center' }}>
-            <img src="/images/workshop-offline.jpg" alt="Không khí Workshop Offline Finance & AI" style={{ width: '100%', maxWidth: '900px', borderRadius: '20px', border: '2px solid var(--accent-gold)', boxShadow: '0 10px 30px rgba(251, 191, 36, 0.15)', margin: '0 auto' }} />
+            <img src="/images/huong-dan-giao-dich.jpeg" alt="Không khí Workshop Offline Finance & AI" style={{ width: '100%', maxWidth: '900px', borderRadius: '20px', border: '2px solid var(--accent-gold)', boxShadow: '0 10px 30px rgba(251, 191, 36, 0.15)', margin: '0 auto' }} />
           </div>
         </div>
       </section>
