@@ -117,7 +117,7 @@
           <div class="info-card">
             <span>⏱️</span>
             <h4>Thời gian</h4>
-            <p>08:30 - Ngày 25/04/2026</p>
+            <p>08:30 - Ngày 02/05/2026</p>
           </div>
           <div class="info-card" style="border-color: var(--accent-gold);">
             <span>☕</span>
@@ -261,6 +261,10 @@
           <span class="num" id="minute">30</span>
           <span class="text">Phút</span>
         </div>
+        <div class="time-box">
+          <span class="num" id="second">00</span>
+          <span class="text">Giây</span>
+        </div>
       </div>
 
       <a href="https://zalo.me/g/vb1adixzhd7gmo4lkhhj" target="_blank" class="btn-primary" style="padding: 20px 40px; font-size: 1.2rem;">
@@ -272,8 +276,8 @@
 
   <script>
     function updateCountdown() {
-      // 08:30 Ngày 25/04/2026
-      const targetDate = new Date("2026-04-25T08:30:00").getTime();
+      // 08:30 Ngày 02/05/2026
+      const targetDate = new Date("2026-05-02T08:30:00").getTime();
       const now = new Date().getTime();
       const distance = targetDate - now;
 
@@ -281,16 +285,19 @@
         document.getElementById("day").innerText = "00";
         document.getElementById("hour").innerText = "00";
         document.getElementById("minute").innerText = "00";
+        document.getElementById("second").innerText = "00";
         return;
       }
 
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       document.getElementById("day").innerText = days.toString().padStart(2, '0');
       document.getElementById("hour").innerText = hours.toString().padStart(2, '0');
       document.getElementById("minute").innerText = minutes.toString().padStart(2, '0');
+      document.getElementById("second").innerText = seconds.toString().padStart(2, '0');
     }
 
     setInterval(updateCountdown, 1000);
