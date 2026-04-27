@@ -35,7 +35,7 @@ export default function Home() {
               <div className="info-card">
                 <span>⏱️</span>
                 <h4>Thời gian</h4>
-                <p>08:30 - Ngày 02/05/2026</p>
+                <p>08:30 - Chủ nhật ngày 03/05/2026</p>
               </div>
               <div className="info-card" style={{ borderColor: 'var(--accent-gold)' }}>
                 <span>☕</span>

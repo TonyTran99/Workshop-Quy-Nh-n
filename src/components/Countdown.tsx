@@ -11,8 +11,8 @@ export default function Countdown() {
   });
 
   useEffect(() => {
-    // 08:30 Ngày 02/05/2026
-    const targetDate = new Date("2026-05-02T08:30:00").getTime();
+    // 08:30 Ngày 03/05/2026
+    const targetDate = new Date("2026-05-03T08:30:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
